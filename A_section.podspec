@@ -117,7 +117,7 @@ Pod::Spec.new do |s|
 
   #s.public_header_files = 'Classes/Public/*.h'
 
-  s.dependency "B_Category"
+  s.dependency 'B_Category' ,'0.0.1'
   s.dependency "HandyFrame"
 
   # s.resource  = "icon.png"
