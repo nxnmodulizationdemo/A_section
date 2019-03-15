@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		220C5C8C30CB61C372D687F956E11A4C /* CTMediator+B.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA0C5E0F122A7867F33247A73EBC2BA /* CTMediator+B.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		29D258A1E1A0E6109C08ABB390103A59 /* CTMediator+B.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA0C5E0F122A7867F33247A73EBC2BA /* CTMediator+B.m */; };
 		3C598E38C5574623F9D2DD2F5498D782 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD46FBC041420035C341CC6342582587 /* UIKit.framework */; };
 		774FF9ACD1E98F30586CAE9C51E50BB2 /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = EAC3AF5E9C9654885E44C93F528B98A8 /* CTMediator.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8368F2A7E9D6B542CEE8DDE349DD3851 /* CTMediator+B.h in Headers */ = {isa = PBXBuildFile; fileRef = C73E078826692FC74577C51B516920D1 /* CTMediator+B.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		87F2255684AB53AADA0C46F77ED47DA2 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D25428AF0ECCB14CBD29B34995D4D65 /* CTMediator.m */; };
 		895EE59CF1A8F47DC05138F87B25D2E6 /* Pods-A_section-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C248A892C8D208B03F2D280A0EAD7C8 /* Pods-A_section-dummy.m */; };
-		C9D8ABEA0C2F58D094873146FA55EC36 /* B_Category-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2860EC4C6BD2FA0FDBAB3AA1E30641 /* B_Category-dummy.m */; };
+		CD3987D098CE907757742808393DCE07 /* B_Category-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2860EC4C6BD2FA0FDBAB3AA1E30641 /* B_Category-dummy.m */; };
 		F26F145A00100C7E9F413B540330A65F /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC703DABA102D7C11736C65EDA7BFEBA /* CTMediator-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -249,7 +249,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A5176FB77FB2168FCC354C83E743788 /* Build configuration list for PBXNativeTarget "B_Category" */;
 			buildPhases = (
-				C62CAC032A6AC41C498459EF2B6BBB07 /* Sources */,
+				60B8D66ED0D8505F801BAEC8E2C5A006 /* Sources */,
 				3BD786EF455006389B63CDB1267D2633 /* Frameworks */,
 				F066BC16A2042C9650A6C23847E73BE7 /* Headers */,
 			);
@@ -327,21 +327,21 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		60B8D66ED0D8505F801BAEC8E2C5A006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3987D098CE907757742808393DCE07 /* B_Category-dummy.m in Sources */,
+				29D258A1E1A0E6109C08ABB390103A59 /* CTMediator+B.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		80A039A5FEFF9DF1CC983A7211466F1D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F26F145A00100C7E9F413B540330A65F /* CTMediator-dummy.m in Sources */,
 				87F2255684AB53AADA0C46F77ED47DA2 /* CTMediator.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C62CAC032A6AC41C498459EF2B6BBB07 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C9D8ABEA0C2F58D094873146FA55EC36 /* B_Category-dummy.m in Sources */,
-				220C5C8C30CB61C372D687F956E11A4C /* CTMediator+B.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,30 +485,6 @@
 			};
 			name = Debug;
 		};
-		27440371E17EB76210369024F1B1AAB7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 717F452897AA28EEB84D9760EA83EBC3 /* B_Category.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/B_Category/B_Category-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = B_Category;
-				PRODUCT_NAME = B_Category;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		9D1AE48E8E03B66D3B0AAD522907FB38 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0D7EDB1EF9A6F00CDD801632B2E20111 /* CTMediator.xcconfig */;
@@ -532,17 +508,16 @@
 			};
 			name = Debug;
 		};
-		D8FB841571D9F3299BB414D0B44B7F82 /* Release */ = {
+		A8A47F513F93449A21DC1983EF4ADC35 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 717F452897AA28EEB84D9760EA83EBC3 /* B_Category.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/B_Category/B_Category-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -578,6 +553,29 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		EFB6EEE841FAF3A5C52F38E91E8B59A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 717F452897AA28EEB84D9760EA83EBC3 /* B_Category.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/B_Category/B_Category-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = B_Category;
+				PRODUCT_NAME = B_Category;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -643,8 +641,8 @@
 		2A5176FB77FB2168FCC354C83E743788 /* Build configuration list for PBXNativeTarget "B_Category" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				27440371E17EB76210369024F1B1AAB7 /* Debug */,
-				D8FB841571D9F3299BB414D0B44B7F82 /* Release */,
+				EFB6EEE841FAF3A5C52F38E91E8B59A0 /* Debug */,
+				A8A47F513F93449A21DC1983EF4ADC35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

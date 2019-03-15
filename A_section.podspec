@@ -97,7 +97,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "A_section/Classes/**/*.{h,m}"
+  s.source_files  = "A_section/Classes/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -110,12 +110,12 @@ Pod::Spec.new do |s|
   #  You can preserve files from being cleaned, please don't preserve
   #  non-essential files like tests, examples and documentation.
   #
-  s.resource = ['Images/*.png','Sounds/*']
-  s.resource_bundle = {
-  'ABC_section' => ['Classes/ABCImage/*png']
-  }
+  #s.resource = ['Images/*.png','Sounds/*']
+  #s.resource_bundle = {
+  #'ABC_section' => ['Classes/ABCImage/*png']
+  #}
 
-  s.public_header_files = 'Classes/Public/*.h'
+  #s.public_header_files = 'Classes/Public/*.h'
 
   s.dependency "B_Category"
   s.dependency "HandyFrame"
