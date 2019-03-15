@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AD7BDAA3F80E8CB31EBD9320FC1091B2"
-               BlueprintName = "Pods-A_section"
+               BlueprintIdentifier = "AE7626C59502975CB181413AF2281656"
+               BlueprintName = "HandyFrame"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libPods-A_section.a">
+               BuildableName = "libHandyFrame.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
