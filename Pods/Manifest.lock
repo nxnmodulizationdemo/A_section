@@ -5,23 +5,21 @@ PODS:
   - HandyFrame (1.2.0)
 
 DEPENDENCIES:
-  - B_Category (from `../B_Category`)
+  - B_Category (= 0.0.1)
   - HandyFrame
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - CTMediator
     - HandyFrame
-
-EXTERNAL SOURCES:
-  B_Category:
-    :path: "../B_Category"
+  https://github.com/nxnmodulizationdemo/PrivatePods.git:
+    - B_Category
 
 SPEC CHECKSUMS:
   B_Category: 17104ee51af8fe094643a7c85da7ddace1ba6a7c
   CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
   HandyFrame: 437df83ba7563c56cd55b9bd0128561995463110
 
-PODFILE CHECKSUM: 6c8a5004d6bdc87c053116408e632f336eaa63e1
+PODFILE CHECKSUM: eeaa2854f2f8f7338aa332c75fbcffc8b687d20d
 
 COCOAPODS: 1.5.3

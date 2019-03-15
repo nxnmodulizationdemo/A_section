@@ -2,16 +2,16 @@
 //  CTMediator+B.m
 //  B_Category
 //
-//  Created by 赵希帆 on 2017/8/16.
-//  Copyright © 2017年 赵希帆. All rights reserved.
+//  Created by cocoa_niu on 2019/3/14.
+//  Copyright © 2019 cocoa_niu. All rights reserved.
 //
 
 #import "CTMediator+B.h"
 
 @implementation CTMediator (B)
 
-- (UIViewController *)B_viewControllerWithContentText:(NSString *)contentText {
-    
+- (UIViewController *)B_viewControllerWithContentText:(NSString *)contentText
+{
     /*
      BViewController *viewController = [[BViewController alloc] initWithContentText:@"hello, world!"];
      */

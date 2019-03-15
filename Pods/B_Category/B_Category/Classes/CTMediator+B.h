@@ -2,15 +2,19 @@
 //  CTMediator+B.h
 //  B_Category
 //
-//  Created by 赵希帆 on 2017/8/16.
-//  Copyright © 2017年 赵希帆. All rights reserved.
+//  Created by cocoa_niu on 2019/3/14.
+//  Copyright © 2019 cocoa_niu. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import <CTMediator/CTMediator.h>
+#import <UIKit/UIKit.h>
+
+NS_ASSUME_NONNULL_BEGIN
 
 @interface CTMediator (B)
 
 - (UIViewController *)B_viewControllerWithContentText:(NSString *)contentText;
 
 @end
+
+NS_ASSUME_NONNULL_END
